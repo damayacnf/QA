@@ -208,7 +208,7 @@ export default defineConfig({
 
 ## 📄 src/test.ts
 
-Este archivo va ubicado dentro de la **carpeta src.** En caso de querer cambiar la ubicación del archivo también deberá de cambiar la referencia del mismo que hace en el archivo [**vitest.config.ts**](#vitest-config) en la propiedad **setupFiles**.
+Este archivo va ubicado dentro de la **carpeta src.** En caso de querer cambiar la ubicación del archivo también deberá de cambiar la referencia del mismo que hace en el archivo [**vitest.config.ts**](#-vitestconfigts) en la propiedad **setupFiles**.
 
 ```tsx
 import { getTestBed } from '@angular/core/testing';
@@ -258,7 +258,7 @@ export async function takeScreenshootPerTest(
 }
 ```
 
-Una vez hechas las instalaciones y creados los archivos, ejecutar el siguiente comando instalar los navegadores que necesita Playwright para ejecutar los test, estos se definieron en el archivo [playwright.config.ts](#playwright-config).
+Una vez hechas las instalaciones y creados los archivos, ejecutar el siguiente comando instalar los navegadores que necesita Playwright para ejecutar los test, estos se definieron en el archivo [playwright.config.ts](#-playwrightconfigts).
 
 ```bash
 npx playwright install
