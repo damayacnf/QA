@@ -88,8 +88,8 @@ test.describe('Login Page', () => {
     console.log('Submit button visible:', await submitButton.isVisible());
 
     // Rellenamos los campos del formulario
-    await usernameInput.fill('DAMAYA');
-    await passwordInput.fill('aQraplop$25ALV');
+    await usernameInput.fill('TU_USUARIO');
+    await passwordInput.fill('TU_CONTRASEÑA');
 
     // Realizar captura de pantalla antes de enviar el formulario
     await takeScreenshootPerTest(page, testInfo, 'before-submit');
